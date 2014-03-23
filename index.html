@@ -1,150 +1,54 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Et2048 : " />
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Et2048 by mosaicchen</title>
+    <title>Et2048</title>
   </head>
 
   <body>
-    <header>
-      <div class="inner">
-        <h1>Et2048</h1>
-        <h2></h2>
-        <a href="https://github.com/mosaicchen/ET2048" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <p>&lt;!DOCTYPE html&gt;
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mosaicchen/ET2048">View on GitHub</a>
 
-</p>
-  2048<p></p>
+          <h1 id="project_title">Et2048</h1>
+          <h2 id="project_tagline"></h2>
 
-<p></p>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/mosaicchen/ET2048/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/mosaicchen/ET2048/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
 
-<p></p>
-  <div>
-    <div>
-      <h1>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
 <a name="et2048" class="anchor" href="#et2048"><span class="octicon octicon-link"></span></a>ET2048</h1>
-      <div>
-        <div>0</div>
-        <div>0</div>
-      </div>
-    </div>
-    <p>Join the numbers and get to the <strong>教育学!</strong></p>
-      <p></p>
-    <div>
-      <div>
-        <p></p>
-        <div>
-            <a>Keep going and Fight to 结业！</a>
-          <a>Try again</a>
-          <div></div>
-        </div>
-      </div>
 
-<pre><code>  &lt;div class="grid-container"&gt;
-    &lt;div class="grid-row"&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="grid-row"&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="grid-row"&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="grid-row"&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
+<p>ET2048</p>
 
-  &lt;div class="tile-container"&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p class="game-explanation"&gt;
-   &lt;strong class="important"&gt;规则:&lt;/strong&gt; 使用 &lt;strong&gt;上下左右键&lt;/strong&gt; 移动方块，相同的两个课程合并后会变成 &lt;strong&gt;新的课程&lt;/strong&gt;。
-    &lt;/p&gt;
-  &lt;p&gt;
-    The ranks used in this game are: C,C#,PS,WEB,JAVA,网络,口语,书法,传播学,心理学,教育学,结业
-&lt;/p&gt;
-  &lt;p&gt;源码基本没有改动，工作量主要在改文字上了……这么一说有一种浓浓的羞耻感……那么就请无视他吧&lt;/p&gt;
-  &lt;p&gt;by&lt;a href="http://www.renren.com/276876606" target="_blank"&gt;&lt;strong&gt; Mosaicchen&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;
-&lt;strong class="important"&gt;Note:&lt;/strong&gt; This is a fork from &lt;a href="http://gabrielecirulli.github.io/2048"&gt;http://gabrielecirulli.github.io/2048&lt;/a&gt; created by &lt;a href="http://gabrielecirulli.com" target="_blank"&gt;Gabriele Cirulli.&lt;/a&gt;
-&lt;/p&gt;
-&lt;hr&gt;
-</code></pre>
-
-<p></p>
-</div>
-
-<p></p>
-
-<div></div>
-
-<pre><code>&lt;script type="text/javascript"&gt;
-
-    var disqus_shortname = 'mosaicchengithub';
-    (function () {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-</code></pre>
-
-<p>
-</p>
-</div>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/mosaicchen/ET2048/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/mosaicchen/ET2048/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/mosaicchen/ET2048"></a> is maintained by <a href="https://github.com/mosaicchen">mosaicchen</a>.</p>
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
+<p>A fork of the 2048 game for Education Technology students.</p>
+      </section>
     </div>
 
-  
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Et2048 maintained by <a href="https://github.com/mosaicchen">mosaicchen</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
   </body>
 </html>
